@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kbsIW9ZOv4wBvcpsEBmKeSdUnkc+pbNftS88INRJz1jB3JvQGwhJtRrXr8gT4JC2sMF3t62aG1V1zFk5c4kP3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Karol\\Desktop\\MPASK_CSharp\\src\\MPASK_CSharp.ConsoleApp\\MPASK_CSharp.ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Karol\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Karol\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Karol\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Karol\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

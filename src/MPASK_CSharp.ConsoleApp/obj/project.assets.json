@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MPASK_CSharp.ClassLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MPASK_CSharp.ClassLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MPASK_CSharp.ClassLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MPASK_CSharp.ClassLib/1.0.0": {
+      "type": "project",
+      "path": "../MPASK_CSharp.ClassLib/MPASK_CSharp.ClassLib.csproj",
+      "msbuildProject": "../MPASK_CSharp.ClassLib/MPASK_CSharp.ClassLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MPASK_CSharp.ClassLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Karol\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Karol\\Desktop\\MPASK_CSharp\\src\\MPASK_CSharp.ConsoleApp\\MPASK_CSharp.ConsoleApp.csproj",
+      "projectName": "MPASK_CSharp.ConsoleApp",
+      "projectPath": "C:\\Users\\Karol\\Desktop\\MPASK_CSharp\\src\\MPASK_CSharp.ConsoleApp\\MPASK_CSharp.ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\Karol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Karol\\Desktop\\MPASK_CSharp\\src\\MPASK_CSharp.ConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Karol\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Karol\\Desktop\\MPASK_CSharp\\src\\MPASK_CSharp.ClassLib\\MPASK_CSharp.ClassLib.csproj": {
+              "projectPath": "C:\\Users\\Karol\\Desktop\\MPASK_CSharp\\src\\MPASK_CSharp.ClassLib\\MPASK_CSharp.ClassLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.21, 3.1.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

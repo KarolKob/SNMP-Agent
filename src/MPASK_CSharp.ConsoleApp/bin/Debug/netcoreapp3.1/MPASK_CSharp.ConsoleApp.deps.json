@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MPASK_CSharp.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "MPASK_CSharp.ClassLib": "1.0.0"
+        },
+        "runtime": {
+          "MPASK_CSharp.ConsoleApp.dll": {}
+        }
+      },
+      "MPASK_CSharp.ClassLib/1.0.0": {
+        "runtime": {
+          "MPASK_CSharp.ClassLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MPASK_CSharp.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MPASK_CSharp.ClassLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

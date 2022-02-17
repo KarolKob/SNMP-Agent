@@ -1,0 +1,17 @@
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\bin\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.exe
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\bin\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.deps.json
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\bin\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.runtimeconfig.json
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\bin\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.runtimeconfig.dev.json
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\bin\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.dll
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\bin\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.pdb
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\bin\Debug\netcoreapp3.1\MPASK_CSharp.ClassLib.dll
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\bin\Debug\netcoreapp3.1\MPASK_CSharp.ClassLib.pdb
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\obj\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\obj\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.AssemblyInfo.cs
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\obj\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\obj\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.csproj.CopyComplete
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\obj\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.dll
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\obj\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.pdb
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\obj\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.genruntimeconfig.cache
+C:\Users\Karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\obj\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ConsoleApp\obj\Debug\netcoreapp3.1\MPASK_CSharp.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig

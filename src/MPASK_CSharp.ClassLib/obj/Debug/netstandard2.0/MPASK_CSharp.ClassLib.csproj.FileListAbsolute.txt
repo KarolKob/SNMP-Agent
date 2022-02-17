@@ -1,0 +1,10 @@
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ClassLib\bin\Debug\netstandard2.0\MPASK_CSharp.ClassLib.deps.json
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ClassLib\bin\Debug\netstandard2.0\MPASK_CSharp.ClassLib.dll
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ClassLib\bin\Debug\netstandard2.0\MPASK_CSharp.ClassLib.pdb
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ClassLib\obj\Debug\netstandard2.0\MPASK_CSharp.ClassLib.AssemblyInfoInputs.cache
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ClassLib\obj\Debug\netstandard2.0\MPASK_CSharp.ClassLib.AssemblyInfo.cs
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ClassLib\obj\Debug\netstandard2.0\MPASK_CSharp.ClassLib.csproj.CoreCompileInputs.cache
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ClassLib\obj\Debug\netstandard2.0\MPASK_CSharp.ClassLib.dll
+C:\Users\karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ClassLib\obj\Debug\netstandard2.0\MPASK_CSharp.ClassLib.pdb
+C:\Users\Karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ClassLib\obj\Debug\netstandard2.0\MPASK_CSharp.ClassLib.csproj.AssemblyReference.cache
+C:\Users\Karol\Desktop\MPASK_CSharp\src\MPASK_CSharp.ClassLib\obj\Debug\netstandard2.0\MPASK_CSharp.ClassLib.GeneratedMSBuildEditorConfig.editorconfig
