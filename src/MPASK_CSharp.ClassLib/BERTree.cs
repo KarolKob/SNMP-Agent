@@ -12,6 +12,7 @@ namespace MPASK_CSharp.ClassLib
         public bool isConstructed;
         public TagClass access;
 
+        // TODO: convert bytes to ValueObject class and delete value and dataType fields
         public BERTree(string type, bool constructed, byte[] val = null, List<BERTree> tree = null, TagClass acc = TagClass.Universal)
         {
             dataType = type;

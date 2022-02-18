@@ -414,7 +414,7 @@ namespace MPASK_CSharp.ClassLib
             return r;
         }
 
-        private static byte[] CountLength(byte[] data)
+        public static byte[] CountLength(byte[] data)
         {
             byte[] length;
 
