@@ -7,7 +7,7 @@ namespace MPASK_CSharp.ClassLib
     public enum RequestID { GetRequest, GetNextRequest, GetResponse, SetRequest }
     public class PDUCoder
     {
-        public static byte[] EncodePDU(RequestID requestID, Dictionary<ValueObject, ValueObject> varBindList, int errorStatus = 0, int errorIndex = 0)
+        public static byte[] Encode(RequestID requestID, Dictionary<ValueObject, ValueObject> varBindList, int errorStatus = 0, int errorIndex = 0)
         {
             byte[] encodedPDU = null;
 

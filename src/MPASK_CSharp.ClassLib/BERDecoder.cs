@@ -83,7 +83,7 @@ namespace MPASK_CSharp.ClassLib
         }
 
         // Array - 0 for number of bytes encoding length, 1 for length of the content
-        private static int[] DecodeLength(byte[] encoded)
+        public static int[] DecodeLength(byte[] encoded)
         {
             byte lenLen = encoded[1];
             BEREncoder.SetBit(ref lenLen, 7, false);
