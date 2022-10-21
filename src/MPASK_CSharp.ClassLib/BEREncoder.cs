@@ -56,17 +56,25 @@ namespace MPASK_CSharp.ClassLib
                     byte[] trimmedBytes;
                     int numBytes = 0;
 
-                    foreach(byte b in bytes)
+                    if (valInt == 0)
                     {
-                        if (!(b == 0xFF || b == 0x00))
+                        numBytes = 1;
+                    }
+                    else
+                    {
+                        foreach (byte b in bytes)
                         {
-                            numBytes++;
-                        }
-                        else
-                        {
-                            break;
+                            if (!(b == 0xFF || b == 0x00))
+                            {
+                                numBytes++;
+                            }
+                            else
+                            {
+                                break;
+                            }
                         }
                     }
+
                     trimmedBytes = new byte[numBytes];
                     length = (byte)numBytes;
 

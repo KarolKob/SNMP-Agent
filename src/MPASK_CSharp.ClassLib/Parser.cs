@@ -32,14 +32,14 @@ namespace MPASK_CSharp.ClassLib
 
                 foreach (Match impMatch in Regex.Matches(input, @"FROM\s(?<file>[\w-]*)", RegexOptions.Compiled | RegexOptions.Multiline))
                 {
-                    if (fileList.Contains(impMatch.Groups["file"].Value + ".txt"))
+                    if (fileList.Contains(@"../../../" + impMatch.Groups["file"].Value + ".txt"))
                     {
                         //Console.WriteLine("File {0} already parsed.", impMatch.Groups["file"].Value + ".txt");
                     }
                     else
                     {
-                        fileList.Add(impMatch.Groups["file"].Value + ".txt");
-                        importFile = System.IO.File.ReadAllText(impMatch.Groups["file"].Value + ".txt");
+                        fileList.Add(@"../../../" + impMatch.Groups["file"].Value + ".txt");
+                        importFile = System.IO.File.ReadAllText(@"../../../" + impMatch.Groups["file"].Value + ".txt");
                         //Console.WriteLine("Parsing currently {0}", impMatch.Groups["file"].Value + ".txt");
                         this.ParseFile(importFile, ref tree);
                     }

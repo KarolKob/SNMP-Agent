@@ -1,6 +1,8 @@
 ﻿using System;
 using MPASK_CSharp.ClassLib;
 using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
 
 namespace MPASK_CSharp.ConsoleApp
 {
@@ -10,7 +12,8 @@ namespace MPASK_CSharp.ConsoleApp
         {
             Parser mibParser = new Parser();
             MIBTree tree = new MIBTree("iso", 1);
-            string text = System.IO.File.ReadAllText(@"RFC1213-MIB.txt");
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"RFC1213-MIB.txt");
+            string text = System.IO.File.ReadAllText(@"../../../RFC1213-MIB.txt");
 
             byte[] bytes = BitConverter.GetBytes(-129);
             Array.Reverse(bytes);
@@ -50,6 +53,12 @@ namespace MPASK_CSharp.ConsoleApp
             Console.WriteLine(BitConverter.ToString(BEREncoder.EncodeObjectIdentifer(1, 2, 123123, 1)));
 
             Console.WriteLine(BitConverter.ToString(BEREncoder.EncodeSequence(seq, "AtEntry")));
+
+            Dictionary<ValueObject, ValueObject> varBindList = new Dictionary<ValueObject, ValueObject>();
+            varBindList.Add(new ValueObject("OBJECT IDENTIFIER", new uint[] { 1, 3, 6, 1, 4, 1, 2680, 1, 2, 7, 3, 2, 0 }),
+                new ValueObject("NULL"));
+
+            Console.WriteLine(BitConverter.ToString(PDUCoder.Encode(RequestID.GetRequest, varBindList)));
         }
     }
 }

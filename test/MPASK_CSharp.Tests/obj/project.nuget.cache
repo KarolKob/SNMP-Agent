@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2PPx7zbXWRatpTCJtHMdrQSyhyY3+XaiPwUXnY8HzgeAPCjRP/jbdJ+HS6UY/ZgAqjoje00zkyhKO1myzfoKkA==",
+  "dgSpecHash": "xDxmK41WD6n94drlK2obeURmpWDgw6lMZSu8H7wRRJ9ddTKpL+ynV/hbWEDZm9CmazpN9Lxafj/fA5GVoxA32g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Karol\\Desktop\\MPASK_CSharp\\test\\MPASK_CSharp.Tests\\MPASK_CSharp.Tests.csproj",
   "expectedPackageFiles": [
@@ -54,9 +54,9 @@
     "C:\\Users\\Karol\\.nuget\\packages\\xunit.extensibility.core\\2.4.0\\xunit.extensibility.core.2.4.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512",
-    "C:\\Users\\Karol\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Karol\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\Karol\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Karol\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\Karol\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }

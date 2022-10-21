@@ -12,7 +12,7 @@ namespace MPASK_CSharp.ClassLib
             byte[] encodedPDU = null;
 
             // Add the proper SNMP PDU fields before content
-            byte[] reqIDBytes = BEREncoder.Encode("INTEGER", (int)requestID);
+            byte[] reqIDBytes = BEREncoder.Encode("INTEGER", (int)requestID + 1);
             byte[] errorStatusBytes = BEREncoder.Encode("INTEGER", errorStatus);
             byte[] errorIndexBytes = BEREncoder.Encode("INTEGER", errorIndex);
             encodedPDU = CombineByteArrays(reqIDBytes, errorStatusBytes, errorIndexBytes);
@@ -21,7 +21,7 @@ namespace MPASK_CSharp.ClassLib
             int initLen = reqIDBytes.Length + errorStatusBytes.Length + errorIndexBytes.Length;
 
             // TODO: Remove writing to console after ensuring it works as intended
-            Console.WriteLine("Encoded integers: " + encodedPDU);
+            Console.WriteLine("Encoded integers: " + BitConverter.ToString(encodedPDU));
 
             List<byte> tempList = new List<byte>();
 
