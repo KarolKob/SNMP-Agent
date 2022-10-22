@@ -86,15 +86,24 @@ namespace MPASK_CSharp.ClassLib
         public static int[] DecodeLength(byte[] encoded)
         {
             byte lenLen = encoded[1];
-            BEREncoder.SetBit(ref lenLen, 7, false);
 
-            byte[] intBytes = new byte[lenLen + (4 - lenLen)];
-
-            for (int i = 0; i < lenLen; i++)
+            if (BEREncoder.GetBit(lenLen, 7))
             {
-                intBytes[lenLen - 1 - i] = encoded[i + 2];
+                BEREncoder.SetBit(ref lenLen, 7, false);
+
+                // TODO: Check the array size?
+                byte[] intBytes = new byte[lenLen];
+
+                for (int i = 0; i < lenLen; i++)
+                {
+                    intBytes[lenLen - 1 - i] = encoded[i + 2];
+                }
+                return new int[] { lenLen, BitConverter.ToInt32(intBytes, 0) };
             }
-            return new int[] { lenLen, BitConverter.ToInt32(intBytes, 0) };
+            else
+            {
+                return new int[] { 1, lenLen };
+            }
         }
 
         private static BERTree DecodeSequence(byte[] encodedBytes, int length, int lenByteCount)

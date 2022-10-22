@@ -58,7 +58,11 @@ namespace MPASK_CSharp.ConsoleApp
             varBindList.Add(new ValueObject("OBJECT IDENTIFIER", new uint[] { 1, 3, 6, 1, 4, 1, 2680, 1, 2, 7, 3, 2, 0 }),
                 new ValueObject("NULL"));
 
-            Console.WriteLine(BitConverter.ToString(PDUCoder.Encode(RequestID.GetRequest, varBindList)));
+            byte[] encodedPDU = PDUCoder.Encode(RequestID.GetRequest, varBindList);
+
+            Console.WriteLine(BitConverter.ToString(encodedPDU));
+
+            PDUDecoder.DecodeAndExecute(encodedPDU);
         }
     }
 }
