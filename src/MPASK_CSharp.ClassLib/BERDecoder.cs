@@ -91,7 +91,6 @@ namespace MPASK_CSharp.ClassLib
             {
                 BEREncoder.SetBit(ref lenLen, 7, false);
 
-                // TODO: Check the array size?
                 byte[] intBytes = new byte[lenLen];
 
                 for (int i = 0; i < lenLen; i++)
@@ -102,7 +101,7 @@ namespace MPASK_CSharp.ClassLib
             }
             else
             {
-                return new int[] { 1, lenLen };
+                return new int[] { 0, lenLen };
             }
         }
 

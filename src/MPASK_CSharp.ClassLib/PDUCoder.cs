@@ -20,9 +20,6 @@ namespace MPASK_CSharp.ClassLib
             // Count the initial array length to add it after adding content bytes
             int initLen = reqIDBytes.Length + errorStatusBytes.Length + errorIndexBytes.Length;
 
-            // TODO: Remove writing to console after ensuring it works as intended
-            Console.WriteLine("Encoded integers: " + BitConverter.ToString(encodedPDU));
-
             List<byte> tempList = new List<byte>();
 
             // Encode iterating through the list
