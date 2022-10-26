@@ -39,7 +39,7 @@ namespace MPASK_CSharp.ConsoleApp
             // }
             byte[] addr = {123, 34, 45, 22};
 
-            Dictionary<string, string> seq = new Dictionary<string, string>();
+            var seq = new Dictionary<string, string>();
             seq.Add("atIfIndex", "39587549");
             seq.Add("atPhysAddress", "AddressThatIsPhys");
             seq.Add("atNetAddress", System.Text.Encoding.UTF8.GetString(addr));
@@ -54,7 +54,7 @@ namespace MPASK_CSharp.ConsoleApp
 
             Console.WriteLine(BitConverter.ToString(BEREncoder.EncodeSequence(seq, "AtEntry")));
 
-            Dictionary<ValueObject, ValueObject> varBindList = new Dictionary<ValueObject, ValueObject>();
+            var varBindList = new Dictionary<ValueObject, ValueObject>();
             varBindList.Add(new ValueObject("OBJECT IDENTIFIER", new uint[] { 1, 3, 6, 1, 4, 1, 2680, 1, 2, 7, 3, 2, 0 }),
                 new ValueObject("NULL"));
 

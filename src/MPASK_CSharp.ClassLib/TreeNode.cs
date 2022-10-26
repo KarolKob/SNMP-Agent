@@ -4,8 +4,8 @@ namespace MPASK_CSharp.ClassLib
 {
     public class TreeNode
     {
-        public string nodeName;
-        public int id;
+        public string nodeName { get; set; }
+        public int id { get; set; }
         
         public TreeNode(string name, int id)
         {

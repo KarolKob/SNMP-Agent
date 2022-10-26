@@ -5,13 +5,13 @@ namespace MPASK_CSharp.ClassLib
 {
     public class ValueObject
     {
-        public string valType;
-        public uint[] valOid;
-        public Int64 valInt; 
-        public bool valBool; 
-        public string valStr;
-        public Dictionary<string, string> valSeq;
-        public string valSeqName;
+        public string valType { get; set; }
+        public uint[] valOid { get; set; }
+        public Int64 valInt { get; set; } 
+        public bool valBool { get; set; }
+        public string valStr { get; set; }
+        public Dictionary<string, string> valSeq { get; set; }
+        public string valSeqName { get; set; }
 
         public ValueObject(string valType, uint[] valOid = null, Int64 valInt = 0, bool valB = false, 
         string valStr = null, Dictionary<string, string> valSeq = null, string valSeqName = null)

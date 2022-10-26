@@ -108,7 +108,7 @@ namespace MPASK_CSharp.ClassLib
         private static BERTree DecodeSequence(byte[] encodedBytes, int length, int lenByteCount)
         {
             BERTree decoded;
-            List<BERTree> treeList = new List<BERTree>();
+            var treeList = new List<BERTree>();
             int offsetInd = 2;
 
             if (lenByteCount > 1)

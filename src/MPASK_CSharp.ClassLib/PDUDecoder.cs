@@ -19,7 +19,7 @@ namespace MPASK_CSharp.ClassLib
             int[] allLen = BERDecoder.DecodeLength(encodedPDU);
             byte requestID = encodedPDU[0];
 
-            byte[] trimmedPDU = (byte[])encodedPDU.Skip(allLen[0] + 15).ToArray();
+            byte[] trimmedPDU = encodedPDU.Skip(allLen[0] + 15).ToArray();
 
             Dictionary<ValueObject, ValueObject> decodedContent = DecodeContent(trimmedPDU);
 
@@ -28,7 +28,7 @@ namespace MPASK_CSharp.ClassLib
 
         public static Dictionary<ValueObject, ValueObject> DecodeContent(byte[] trimmedPDU)
         {
-            Dictionary<ValueObject, ValueObject> decodedValues = new Dictionary<ValueObject, ValueObject>();
+            var decodedValues = new Dictionary<ValueObject, ValueObject>();
 
             int[] allLen = BERDecoder.DecodeLength(trimmedPDU);
             byte[] oid = trimmedPDU.Take(allLen[1]).ToArray();

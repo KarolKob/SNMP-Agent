@@ -11,7 +11,7 @@ namespace MPASK_CSharp.ClassLib
         // Remember parsed files so that they aren't parsed again
         private static List<string> fileList = new List<string>();
 
-        public static Dictionary<string, Dictionary<string, string>> sequenceDict = 
+        public static Dictionary<string, Dictionary<string, string>> sequenceDict =
                                 new Dictionary<string, Dictionary<string, string>>();
 
         public Parser()
@@ -103,7 +103,7 @@ namespace MPASK_CSharp.ClassLib
                 inside = match.Groups["inside"].Value;
                 string[] splitCom = inside.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
 
-                Dictionary<string, string> insideDict = new Dictionary<string, string>();
+                var insideDict = new Dictionary<string, string>();
 
                 foreach(string entry in splitCom)
                 {

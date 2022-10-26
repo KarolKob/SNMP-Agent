@@ -20,7 +20,7 @@ namespace MPASK_CSharp.ClassLib
             // Count the initial array length to add it after adding content bytes
             int initLen = reqIDBytes.Length + errorStatusBytes.Length + errorIndexBytes.Length;
 
-            List<byte> tempList = new List<byte>();
+            var tempList = new List<byte>();
 
             // Encode iterating through the list
             foreach(KeyValuePair<ValueObject, ValueObject> vals in varBindList)

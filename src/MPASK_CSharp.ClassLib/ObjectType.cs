@@ -6,15 +6,15 @@ namespace MPASK_CSharp.ClassLib
     enum Status {Mandatory, Optional, Obsolete}
     public class ObjectType : TreeNode
     {
-        private string syntax, syntax_vals, description, index;
+        private string syntax, syntaxVals, description, index;
         private Access access;
         private Status status;
         private DataType dataType = null;
-        public ObjectType(string name, int id, string syntax, string syntax_vals, 
+        public ObjectType(string name, int id, string syntax, string syntaxVals, 
                             string access, string status, string description, string index, DataType dt) : base(name, id)
         {
             this.syntax = syntax;
-            this.syntax_vals = syntax_vals;
+            this.syntaxVals = syntaxVals;
             this.description = description;
             this.index = index;
             this.dataType = dt;
@@ -63,12 +63,12 @@ namespace MPASK_CSharp.ClassLib
         {
             if (dataType == null)
             {
-                return base.ToString() + " " + syntax + " " + syntax_vals + " " + access.ToString() + " " +
+                return base.ToString() + " " + syntax + " " + syntaxVals + " " + access.ToString() + " " +
              status.ToString() + " " + description + " " + index;
             }
             else
             {
-                return base.ToString() + " " + syntax + " " + syntax_vals + " " + access.ToString() + " " +
+                return base.ToString() + " " + syntax + " " + syntaxVals + " " + access.ToString() + " " +
              status.ToString() + " " + description + " " + index + " " + dataType.name + " " + dataType.type;
             }
         }

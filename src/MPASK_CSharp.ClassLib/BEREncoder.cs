@@ -112,7 +112,7 @@ namespace MPASK_CSharp.ClassLib
         public static byte[] EncodeSequence(Dictionary<string, string> sequenceDict, string sequenceName = null)
         {
             byte[] encodedBytes;
-            List<byte> tempList = new List<byte>();
+            var tempList = new List<byte>();
 
             if (sequenceName != null && Parser.sequenceDict.ContainsKey(sequenceName))
             {
@@ -239,7 +239,7 @@ namespace MPASK_CSharp.ClassLib
         public static byte[] EncodeObjectIdentifer(params uint[] ids)
         {
             byte[] encodedBytes;
-            List<byte> tempList = new List<byte>();
+            var tempList = new List<byte>();
 
             if (ids.Length > 1)
             {
